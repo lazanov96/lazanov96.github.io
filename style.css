@@ -1,0 +1,193 @@
+body{
+    background-color: rgba(248,249,250,1);
+}
+.jumbotron{
+    text-align: center;
+    background-color: beige;
+}
+.navbar{
+    font-size:1.3em;
+}
+.carousel-inner img{
+    width:100%;
+    height: 27.5rem;
+}
+.col-md-4 img{
+    max-height: 10rem;
+    max-width: 10rem;
+}
+#caption1{
+    color:white;
+    text-shadow:5px white;
+}
+.padding1{
+    padding:2rem;
+}
+#welcome{
+    text-align:center;
+    justify-content: center;
+    margin:auto;
+    width:70%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#welcomeh2{
+    margin-top:5rem;
+    font-weight: bolder;
+    font-size:3rem;
+    border-bottom: 3px black solid;
+    letter-spacing: 5px;
+}
+#welcomeh42{
+    margin-bottom:10rem;
+}
+section h4{
+    font-style: italic;
+}
+#con1 h3{
+    padding:2rem;
+    text-shadow: 1px 1px black;
+    letter-spacing:10px;
+}
+#con1{
+    margin-bottom:7rem;
+}
+
+i{
+    font-size: 7rem;
+}
+.fa-code{
+    color:rgb(167, 97, 12);
+}
+.fa-css3{
+    color:rgb(8, 8, 116);
+}
+.fa-bootstrap{
+    color:blueviolet;
+}
+.card{
+    width:100%;
+    height:100%;
+}
+.card:hover{
+    opacity:0.7;
+}
+.card-body{
+    text-align: center;
+}
+.card img{
+    max-width:15rem;
+    max-height:15rem;
+    margin:auto;
+}
+#bigimg{
+    max-width:14rem;
+    max-height:14rem;
+}
+#colbox{
+    margin-top:7rem;
+    margin-bottom:7rem;
+    text-align: center;
+}
+#colbox h3{
+    margin-bottom:5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:2px 1px 1px black;
+}
+#colbox p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:3px black;
+}
+#colbox img{
+    box-sizing:border-box;
+    width:100%;
+    border:5px lightblue solid;
+}
+
+/* Social Media */
+#socialmedia{
+    text-align: center;
+    margin-top:20rem;
+}
+.social a{
+    margin-top:2rem;
+}
+.social a i{
+    padding-left:0.5em;
+    padding-right:0.5em;
+}
+.fa-facebook{
+    font-size:3em;
+    color:blue;
+}
+.fa-twitter{
+    color:rgb(77, 162, 190);
+    font-size:3em;
+}
+.fa-instagram{
+    font-size:3em;
+    color:darkorange;
+}
+.fa-youtube{
+    font-size:3em;
+    color:red;
+}
+
+/*Gallery CSS*/
+.galleryPadding{
+    padding-top:5rem;
+    text-align: center;
+}
+.galleryPadding h2{
+    text-shadow:2px 1px 1px black;
+}
+.galleryPic{
+    max-width:90%;
+    max-height:90%;
+    margin:auto;
+    display:block;
+}
+
+/*About CSS*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Query*/
+
+@media screen and (max-width: 992px){
+    .navbar-nav{
+        margin:auto;
+        text-align:center;
+    }
+    .fa-facebook{
+        font-size:1.5em;
+    }
+    .fa-twitter{
+        font-size:1.5em;
+    }
+    .fa-instagram{
+        font-size:1.5em;
+    }
+    .fa-youtube{
+        font-size:1.5em;
+    }
+    #welcomeh2{
+        margin-top:5rem;
+        font-weight: bold;
+        font-size:2.5rem;
+        border-bottom: 3px black solid;
+        letter-spacing: 2px;
+    }
+    #rowRev{
+        display:flex;
+        flex-flow:column-reverse;
+    }
+}
